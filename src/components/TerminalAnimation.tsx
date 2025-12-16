@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const commands = [
-  { prompt: "next init", output: "Initializing your project..." },
+  { prompt: "next init", output: "Initializing your journey..." },
   { prompt: "next build --optimize", output: "Building production bundle..." },
-  { prompt: "next deploy", output: "✓ Deployed successfully!" },
+  { prompt: "next deploy", output: "✓ Welcome to our website!" },
 ];
 
 export const TerminalAnimation = () => {
@@ -33,9 +33,11 @@ export const TerminalAnimation = () => {
           <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
           <div className="w-3 h-3 rounded-full bg-green-500/60" />
         </div>
-        <span className="text-xs text-muted-foreground ml-2 font-mono">terminal</span>
+        <span className="text-xs text-muted-foreground ml-2 font-mono">
+          terminal
+        </span>
       </div>
-      
+
       {/* Terminal content */}
       <div className="p-4 font-mono text-sm space-y-2 min-h-[120px]">
         <div className="flex items-center gap-2">

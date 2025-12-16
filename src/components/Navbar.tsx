@@ -32,7 +32,7 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <motion.a href="#home" whileHover={{ scale: 1.02 }}>
-          <div className="relative w-28 h-28 rounded-lg overflow-hidden">
+          <div className="relative w-25 h-25 rounded-lg overflow-hidden">
             <img src={nextLogo} alt="Next" />
           </div>
         </motion.a>
